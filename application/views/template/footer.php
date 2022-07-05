@@ -19,7 +19,7 @@
                         <div class="col-md-5">
                             <div class="logo-footer margin-bottom-20">
                                 <a href="index.html" rel="home" class="main-logo">
-                                    <img src="assets/images/logo footer.png" alt="images">
+                                    <img src="<?= base_url('assets/images/logo footer.png');?>" alt="images">
                                 </a>
                             </div>
                             <p class="text-white line-height-32">Menjunjung tinggi kejujuran</p>
@@ -110,18 +110,18 @@
 
     <a id="scroll-top"></a>
 
-    <script data-cfasync="false" src="assets/js/email-decode.min.js"></script>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/plugins.js"></script>
-    <script src="assets/js/tether.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/countto.js"></script>
-    <script src="assets/js/jquery.cookie.js"></script>
-    <script src="assets/js/shortcodes.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/swiper.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script data-cfasync="false" src="<?= base_url('');?>assets/js/email-decode.min.js"></script>
+    <script src="<?= base_url('assets/js/jquery.min.js');?>"></script>
+    <script src="<?= base_url('assets/js/plugins.js');?>"></script>
+    <script src="<?= base_url('assets/js/tether.min.js');?>"></script>
+    <script src="<?= base_url('assets/js/bootstrap.min.js');?>"></script>
+    <script src="<?= base_url('assets/js/countto.js');?>"></script>
+    <script src="<?= base_url('assets/js/jquery.cookie.js');?>"></script>
+    <script src="<?= base_url('ssets/js/shortcodes.j');?>as"></script>
+    <script src="<?= base_url('assets/js/wow.min.js');?>"></script>
+    <script src="<?= base_url('assets/js/swiper-bundle.min.js');?>"></script>
+    <script src="<?= base_url('assets/js/swiper.js');?>"></script>
+    <script src="<?= base_url('assets/js/main.js');?>"></script>
 </body>
 
 </html>

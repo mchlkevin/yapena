@@ -12,16 +12,16 @@
     <meta name="author" content="themesflat.com">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/style.css');?>">
+    
 
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/icomoon.css');?>">
+    
+    <link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/responsive.css');?>">
 
-    <link rel="stylesheet" type="text/css" href="assets/css/icomoon.css">
-
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
-
-    <link rel="shortcut icon" href="assets/images/Favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/images/Favicon.png">
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="shortcut icon" href="<?= base_url('assets/images/Favicon.png');?>">
+    <link rel="apple-touch-icon-precomposed" href="<?= base_url('assets/images/Favicon.png');?>">
+    <link rel="stylesheet" href="<?= base_url('assets/css/swiper-bundle.min.css');?>" />
 
 </head>
 
@@ -62,7 +62,7 @@
                             <div id="site-logo" class="clearfix">
                                 <div id="site-log-inner">
                                     <a href="<?= base_url(); ?>home" rel="home" class="main-logo">
-                                        <img src="assets/images/logo yapena.jpeg" alt="images">
+                                        <img src="<?= base_url('assets/images/logo yapena.jpeg');?>" alt="images">
                                     </a>
                                 </div>
                             </div>
@@ -128,11 +128,11 @@
                             <div class="side-menu__block-overlay custom-cursor__overlay"></div>
                             <div class="side-menu__block-inner">
                                 <div class="side-menu__top justify-content-end">
-                                    <a href="<?= base_url(); ?>home" class="side-menu__toggler side-menu__close-btn"><img src="assets/images/close-1-1.png" alt="images"></a>
+                                    <a href="<?= base_url(); ?>home" class="side-menu__toggler side-menu__close-btn"><img src="<?= base_url('assets/images/close-1-1.png');?>" alt="images"></a>
                                 </div>
                                 <div class="side-menu__top-introduce">
                                     <a href="<?= base_url(); ?>home" rel="home" class="main-logo">
-                                        <img src="assets/images/logo yapena.jpeg" alt="images">
+                                        <img src="<?= base_url('assets/images/logo yapena.jpeg');?>" alt="images">
                                     </a>
                                     <p>Etiam efficitur, metus in cursus imperdiet, neque nisl porta erat, nec volutpat
                                         felis lacus a tellus. Nunc tristique nulla nisi, a viverra dui auctor vitae.
@@ -146,31 +146,31 @@
                                     </div>
                                     <div class="side-menu__lastest">
                                         <div class="side-menu__lastest-item">
-                                            <img src="assets/images/side-menu-latest-1.jpg" alt="images">
+                                            <img src="<?= base_url('assets/images/side-menu-latest-1.jpg');?>" alt="images">
                                             <div class="side-menu__lastest-layer">
                                                 <a href="detail-artikel.html" class="side-menu__lastest-icon"></a>
                                             </div>
                                         </div>
                                         <div class="side-menu__lastest-item">
-                                            <img src="assets/images/side-menu-latest-2.jpg" alt="images">
+                                            <img src="<?= base_url('assets/images/side-menu-latest-2.jpg');?>" alt="images">
                                             <div class="side-menu__lastest-layer">
                                                 <a href="detail-artikel.html" class="side-menu__lastest-icon"></a>
                                             </div>
                                         </div>
                                         <div class="side-menu__lastest-item">
-                                            <img src="assets/images/side-menu-latest-3.jpg" alt="images">
+                                            <img src="<?= base_url('assets/images/side-menu-latest-3.jpg')?>" alt="images">
                                             <div class="side-menu__lastest-layer">
                                                 <a href="detail-artikel.html" class="side-menu__lastest-icon"></a>
                                             </div>
                                         </div>
                                         <div class="side-menu__lastest-item">
-                                            <img src="assets/images/side-menu-latest-4.jpg" alt="images">
+                                            <img src="<?= base_url('assets/images/side-menu-latest-4.jpg');?>" alt="images">
                                             <div class="side-menu__lastest-layer">
                                                 <a href="detail-artikel.html" class="side-menu__lastest-icon"></a>
                                             </div>
                                         </div>
                                         <div class="side-menu__lastest-item">
-                                            <img src="assets/images/side-menu-latest-5.jpg" alt="images">
+                                            <img src="<?= base_url('assets/images/side-menu-latest-5.jpg');?>" alt="images">
                                             <div class="side-menu__lastest-layer">
                                                 <a href="detail-artikel.html" class="side-menu__lastest-icon"></a>
                                             </div>
